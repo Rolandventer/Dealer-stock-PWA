@@ -1,0 +1,21 @@
+{
+  "name": "AutoSLM Stock PWA",
+  "short_name": "AutoSLM",
+  "start_url": "/index.html",
+  "display": "standalone",
+  "background_color": "#0b0d12",
+  "theme_color": "#ffcc00",
+  "icons": [
+    {
+      "src": "assets/icon-192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "assets/icon-512.png",
+      "type": "image/png",
+      "sizes": "512x512",
+      "purpose": "any maskable"
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+  <link rel="manifest" href="manifest.webmanifest">
+  <meta name="theme-color" content="#ffcc00">
+  <title>AutoSLM Stock PWA</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <button id="backBtn" class="btn">← Back</button>
+    <h1 style="margin:0; font-size:1rem;">AutoSLM Stock</h1>
+    <div style="flex:1"></div>
+    <button id="installBtn" class="btn">Install</button>
+  </header>
+
+  <main>
+    <section id="landing" class="hero">
+      <div class="vehicle-icon">
+        <img src="assets/icon-192.png" alt="Vehicle">
+      </div>
+      <button id="openStock" class="primary btn">View Vehicle Stock</button>
+      <p class="footer-note">Tap to load the latest stock from the dealer feed.</p>
+    </section>
+
+    <section id="listView" style="display:none;">
+      <div id="cards" class="grid"></div>
+    </section>
+
+    <section id="detailView" style="display:none;">
+      <div id="detail"></div>
+    </section>
+  </main>
+
+  <script src="app.js" type="module"></script>
+</body>
+</html>
